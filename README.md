@@ -28,11 +28,14 @@ Using Python, Pandas functions and methods, and SQLAlchemy, we filter the date c
 #### December Temp Stats
 ![dec_temp.png](https://github.com/alexhuynh0530/surfs_up/blob/main/Resources/dec_temp.png)
 
-- Looking at the temperature data from June and December, the average temp are relatively the same with June at 74.9 and December at 71.04, indicating that the surf and ice cream shop business could be sustainable year-round
-- Looking at the minimum temperatures from June and December, you see that December gets as low as 56 with June getting as low as 64. Depending on temperature preference, some days in December may not be ideal for business on the colder days versus the colder days in June.
-- You can see that December has a greater standard deviation meaning the temperatures are a bit more dispersed in relation to the mean or average. This is important to consider, because even with the December average temperature is 71.04, there is a wide spread that may include more colder temperatures on certain dates which are not ideal for business.
+From the June and December statistics you can see that:
+- the temperature mean for June is 74.9 while December is 71.04
+- the minumum temperature for June is 64 while December is 56
+- the standard deviation June temperatures is 3.2574 while December is 3.7459
 
 
 ## Summary
 
-In summary, 
+In summary, looking at the temperature data and results, the average temperatures for both months indicate that the surf and ice cream shop business could be sustainable year-round. Looking deeper at the minimum temperatures you may see that December gets as low as 56, so depending on the preference of the customer, that may be too cold to surf and get ice cream. Also, the standard deviation is higher with December temperatures, which means they are a bit more dispersed in relation to the mean and may include more colder temperatures on certain days of the month. Overall, looking at the two months, it appears that the business could be sustainable, but you could suspect that December may have more days on the colder side where they might have less traffic/sales.
+
+Two additonal queries that you could perform is a query on weather description (i.e. cloudy or clear skies) and a query on humidity.
